@@ -1,0 +1,26 @@
+# --- Web framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+sse-starlette==2.2.1
+python-multipart==0.0.20
+
+# --- Settings & validation ---
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
+# --- Google ADK + Gemini ---
+google-adk==1.2.0
+
+# --- MCP client (used by ADK's MCPToolset; version pinned by google-adk) ---
+
+
+# --- Utilities ---
+python-dotenv==1.0.1
+httpx==0.28.1
+
+# --- Dev / testing ---
+pytest==8.3.4
+pytest-asyncio==0.25.2
+
+
+sqlalchemy==2.0.36
