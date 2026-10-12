@@ -298,10 +298,3 @@ Ideas with real regulatory friction (crypto lending in India, importing coffee i
 - **The MCP web-search server** needs Node.js/`npx` and an API key for its provider. It's off by default and agents use Gemini's built-in search grounding.
 
 ---
-
-## Roadmap
-
-- Automatic retry with backoff for transient 503s
-- Hosted database for history, with per-user sessions
-- Configurable agent roster, or alternative boards such as personal finance or product decisions
-- Fetch the actual page titles for source links
